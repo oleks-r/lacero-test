@@ -16,4 +16,4 @@
 
   url:    http://localhost:3000/command  
   method: [POST]
-  Request payload:  {"command": "checkApproved", "taskId": 1, "payload":  {"accountId": 1}}
+  Request payload:  {"command": "businessCase1", "taskId": 1, "payload":  {"address": "address1"}}
