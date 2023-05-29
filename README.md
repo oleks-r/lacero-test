@@ -4,16 +4,15 @@
 
 ## Start Gateway
 
-  $ PORT=3000 node service.js
+  $ PORT=3000 node gateway.js
 
 ## Start Microservices
 
-  $ node approvement.js
-  $ node finance.js
-  $ node notification.js
+  $ node serviceA.js
+  $ node serviceB.js
 
 ## Check Functionality
 
   url:    http://localhost:3000/command  
   method: [POST]
-  Request payload:  {"command": "businessCase1", "taskId": 1, "payload":  {"address": "address1"}}
+  request payload:  {"command": "businessCase1", "taskId": 1, "payload":  {"address": "address1"}}
